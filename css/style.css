@@ -6,7 +6,7 @@
 }
 body{
     background-image: url(../img/fondo-web.jpeg);
-    background-repeat: no-repeat ;
+    background-repeat:repeat-y ;
     background-size: 100%;
 }
 /*Styles home*/
@@ -41,6 +41,19 @@ body{
     display: flex;
     margin: 5px;
     color: white;
+}
+.lomasvisto{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.home-spiderman{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .padre-footer{
     display: flex;
