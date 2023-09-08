@@ -99,8 +99,8 @@ body{
     flex-direction: row;
     margin: 0;
 }
-.boton_favoritos_spiderman p {
-margin: 0;
+.boton_favoritos_spiderman a {
+color: white;
 }
 .boton_favoritos_spiderman input {
     height: 30px;
@@ -167,8 +167,8 @@ margin: 0;
     flex-direction: row;
     margin: 0;
 }
-.boton_favoritos_friends p {
-margin: 0;
+.boton_favoritos_friends a {
+color: white;
 }
 .boton_favoritos_friends input {
     height: 30px;
