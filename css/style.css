@@ -1,0 +1,31 @@
+.favsMain{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    color: white;
+}
+.favsTitulos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+}
+.favsTitulos h1 {
+    font-style: bold;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.favsPadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 30vw;
+}
+.fav {
+    display: flex;
+    flex-direction: column;
+     
+}
