@@ -64,6 +64,49 @@ body{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/* styles pagina generos*/
+
+.generos_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.titulo_accion {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contenido_accion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.379);
+}
+.foto {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 15%;
+}
+.foto h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 /* styles detalles peliculas*/
 .detalle_pelicula_main {
     display: flex;
