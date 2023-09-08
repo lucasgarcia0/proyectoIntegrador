@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin:0
+}
+body{
+    background-image: url(../img/fondo-web.jpeg);
+}
+.home_main{
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 122.8px;
+    height: 73.6px;
+}
+.busqueda{
+    display: flex;
+    margin-top: 20px;
+}
