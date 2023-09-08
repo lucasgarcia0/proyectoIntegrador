@@ -84,6 +84,49 @@ body{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/* styles pagina generos*/
+
+.generos_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.titulo_accion {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contenido_accion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.379);
+}
+.foto {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 15%;
+}
+.foto h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 /* styles detalles peliculas*/
 .detalle_pelicula_main {
     display: flex;
@@ -225,15 +268,18 @@ color: white;
     color: white;
 }
 .favsTitulos {
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
+    margin-top: 20px;
     justify-content: flex-start;
 }
 .favsTitulos h1 {
     font-style: bold;
     justify-content: flex-start;
     display: flex;
+    margin-bottom: 15px;
 }
 .peliFavAbuelo{
     display: flex;
@@ -244,18 +290,19 @@ color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     width: 80vw;
-    height: 50vh;
     
 }
 .fav {
     display: flex;
     flex-direction: column;
-    width: 33.3%;
+    width: 250px;
+    
     
 }
 .fav img {
     height: 75%;
-    width: 58%;
+    width: 100%;
 }
