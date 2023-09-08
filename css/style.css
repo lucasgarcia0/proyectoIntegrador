@@ -96,7 +96,6 @@ body{
 /* Empiezan styles de favoritos*/
 .favsMain{
     display: flex;
-    justify-content: flex-start;
     flex-direction:column;
     color: white;
 }
@@ -111,16 +110,27 @@ body{
     justify-content: flex-start;
     display: flex;
 }
-
+.peliFavAbuelo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .favsPadre {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     flex-wrap: wrap;
+    justify-content: center;
     width: 80vw;
-    height: 30vw;
+    height: 50vh;
+    
 }
 .fav {
     display: flex;
     flex-direction: column;
+    width: 33.3%;
+    
+}
+.fav img {
+    height: 75%;
+    width: 58%;
 }
