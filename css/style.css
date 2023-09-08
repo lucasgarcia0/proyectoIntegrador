@@ -6,7 +6,7 @@
 }
 body{
     background-image: url(../img/fondo-web.jpeg);
-    background-repeat: no-repeat ;
+    background-repeat:repeat-y ;
     background-size: 100%;
 }
 /*Styles home*/
@@ -42,6 +42,26 @@ body{
     margin: 5px;
     color: white;
 }
+.padre-lomasvisto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.lomasvisto-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+.pelicula{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .padre-footer{
     display: flex;
     justify-content: center;
@@ -64,6 +84,49 @@ body{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/* styles pagina generos*/
+
+.generos_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.titulo_accion {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contenido_accion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.379);
+}
+.foto {
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    flex-direction: column;
+    width: 15%;
+}
+.foto h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 /* styles detalles peliculas*/
 .detalle_pelicula_main {
     display: flex;
