@@ -15,6 +15,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgba(250, 235, 215, 0.34);
 }
 .logo{
     width: 122.8px;
@@ -26,20 +27,41 @@ body{
 .busqueda{
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .menu-navegacion{
     margin-right: 10px;
-    background-color: rgba(250, 235, 215, 0.34);
     padding: 5px;
-    margin-top: 15px;
+    margin-top: 0px;
     font-size: larger;
 }
-.menu-navegacion p{
+.menu-navegacion a{
     display: flex;
     margin: 5px;
+    color: white;
 }
-
+.padre-footer{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 235, 215, 0.34);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color:white;
+    padding-left: 230px;
+    padding-right: 230px;
+    align-items: center;
+}
+.footer p{
+    padding: 20px; 
+    border-right: 2px solid white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
 /* styles detalles peliculas*/
 .detalle_pelicula_main {
     display: flex;
