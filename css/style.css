@@ -6,6 +6,8 @@
 }
 body{
     background-image: url(../img/fondo-web.jpeg);
+    background-repeat: no-repeat ;
+    background-size: 100%;
 }
 /*Styles home*/
 .home_main{
@@ -48,7 +50,7 @@ body{
     justify-content: center;
     box-sizing: border-box;
     margin: 0;
-    color: black;
+    color:white;
 }
 
 .detalle_pelicula_spiderman {
@@ -79,18 +81,99 @@ body{
     align-items: left;
     height: 40vh;
     width: 30vw;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 .informacion_spiderman {
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 25px;
     width: 40vw;
-    margin-top: 170px;
+    margin-top: 105px;
 }
-.favoritos_spiderman {
+.informacion_spiderman p {
+    margin-bottom: 30px;
+}
+
+.boton_favoritos_spiderman {
     display: flex;
-    flex-direction: row;   
+    flex-direction: row;
+    margin: 0;
+}
+.boton_favoritos_spiderman p {
+margin: 0;
+}
+.boton_favoritos_spiderman input {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+
+/* styles detalles series */
+
+.detalle_serie_main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+    margin: 0;
+    color:white;
+}
+
+.detalle_serie_friends {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.titulo_portada_friends {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-right: 70px;
+    width: 30vw;
+}
+
+.titulo_friends {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.portada_friends {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 40vh;
+    width: 30vw;
+    margin-top: 20px;
+}
+.informacion_friends {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    width: 40vw;
+    margin-top: 105px;
+}
+.informacion_friends p {
+    margin-bottom: 30px;
+}
+
+.boton_favoritos_friends {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.boton_favoritos_friends p {
+margin: 0;
+}
+.boton_favoritos_friends input {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
 }
 
 /* Empiezan styles de favoritos*/
