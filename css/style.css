@@ -1,3 +1,4 @@
+
 .detalle_pelicula_main {
     display: flex;
     flex-direction: row;
@@ -50,3 +51,72 @@
     flex-direction: row;   
 }
 
+*{
+    box-sizing: border-box;
+    margin:0
+}
+body{
+    background-image: url(../img/fondo-web.jpeg);
+}
+.home_main{
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 122.8px;
+    height: 73.6px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.busqueda{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.menu-navegacion{
+    margin-right: 10px;
+    background-color: rgba(250, 235, 215, 0.34);
+    padding: 5px;
+    margin-top: 10px;
+    font-size: larger;
+}
+.menu-navegacion p{
+    display: flex;
+    margin: 2px;
+    margin-top: 20px;
+}
+.favsMain{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction:column;
+    color: white;
+}
+.favsTitulos {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    justify-content: flex-start;
+}
+.favsTitulos h1 {
+    font-style: bold;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.favsPadre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 30vw;
+}
+.fav {
+    display: flex;
+    flex-direction: column;
+}
