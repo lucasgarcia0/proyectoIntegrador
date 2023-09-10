@@ -43,15 +43,21 @@ body{
     margin: 5px;
     color: white;
 }
-.padre-lomasvisto{
+.padre-lomasvistopeliculas{
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
 }
-.lomasvisto-texto{
+.padre-lomasvistopeliculas h2{
+    font-weight: unset;
+    margin-bottom: 8px;
+}
+.lomasvistopeliculas-texto{
     display: flex;
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom: 15px;
     flex-wrap: wrap;
 }
 .pelicula{
@@ -59,9 +65,65 @@ body{
     margin-left: 20px;
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 18%;
     margin-left: 10px;
     margin-right: 10px;
+}
+.pelicula img{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    margin-bottom: 5px;
+
+}
+.padre-lomasvistoseries{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.padre-lomasvistoseries h2{
+    font-weight: unset;
+    margin-bottom: 8px;
+}
+.lomasvistoseries-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+.serie{
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.serie img{
+    display: flex;
+    justify-content: center;
+    height: 90%;
+    margin-bottom: 5px;
+}
+.padre-masvaloradas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+.padre-masvaloradas h2{
+    font-weight: unset;
+    margin-bottom: 8px;
+}
+.masvaloradas-texto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 .padre-footer{
     display: flex;
