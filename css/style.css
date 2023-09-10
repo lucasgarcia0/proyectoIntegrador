@@ -8,6 +8,7 @@ body{
     background-image: url(../img/fondo-web.jpeg);
     background-repeat:repeat-y ;
     background-size: 100%;
+    font-family: sans-serif;
 }
 /*Styles home*/
 .home_main{
@@ -85,9 +86,9 @@ body{
     padding-top: 20px;
 }
 
-/* styles pagina generos*/
+/* styles pagina detalle_generos*/
 
-.generos_main {
+.detalle_generos_main {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -96,14 +97,15 @@ body{
 
 .titulo_accion {
     display: flex;
-    justify-content: center;
-    width: 100vw;
+    justify-content:center;
+    width: 100%;
     color: white;
     font-size: 40px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
-.contenido_accion{
+.contenido_accion_peliculas{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -112,19 +114,62 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.379);
+    width: 100vw;
 }
-.foto {
+.pelicula_accion{
     display: flex;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     flex-direction: column;
-    width: 15%;
+    width: 14vw;
 }
-.foto h2 {
+
+.pelicula_accion a {
+    color: white;
     font-size: 20px;
-    margin-top: 20px;
-    display: flex;
+    display: flex; 
     justify-content: center;
+}
+
+.contenido_accion_peliculas p {
+    font-size: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.contenido_accion_series{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.379);
+    width: 100vw;
+}
+.serie_accion{
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    flex-direction: column;
+    width: 14vw;
+}
+
+.serie_accion a {
+    color: white;
+    font-size: 20px;
+    display: flex; 
+    justify-content: center;
+}
+
+.contenido_accion_series p {
+    font-size: 30px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: left;
 }
 
 /* styles detalles peliculas*/
@@ -179,6 +224,10 @@ body{
     margin-bottom: 30px;
 }
 
+.informacion_spiderman a {
+    color: white;
+    margin-bottom: 30px;
+}
 .boton_favoritos_spiderman {
     display: flex;
     flex-direction: row;
@@ -245,6 +294,10 @@ color: white;
 }
 .informacion_friends p {
     margin-bottom: 30px;
+}
+.informacion_friends a {
+    margin-bottom: 30px;
+    color: white;
 }
 
 .boton_favoritos_friends {
