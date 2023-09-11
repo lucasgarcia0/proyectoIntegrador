@@ -469,7 +469,7 @@ color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 18vh;
+    margin-bottom: 13vh;
     background-color: rgba(250, 235, 215, 0.34);
 }
 .favsPadre {
@@ -481,17 +481,16 @@ color: white;
     width: 80vw;
     margin-bottom: 15px;
     margin-top: 15px;
-
 }
 .fav {
     display: flex;
     flex-direction: column;
     width: 18%;
-    
-    
 }
-.fav h2{
+.fav a{
     font-weight: unset;
+    color: white;
+    font-size: 20px;
 }
 .fav img {
     height: 90%;
@@ -502,5 +501,86 @@ color: white;
     display: flex;
     align-items:bottom;
     justify-content:center;
-    
+}
+
+/*Estilos del Search-Results*/
+.SearchResults_main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+.resBusqueda{
+    margin-left: 15px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+    font-size: larger;
+}
+.coincidenciaPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(250, 235, 215, 0.076);
+}
+.coincidenciaSpider{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.busqRelacionadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 13vh;
+    background-color: rgba(250, 235, 215, 0.076);
+}
+.busqRelacionadasPadre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.relac {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+}
+.relac a{
+    font-weight: unset;
+    color: white;
+    font-size: 20px;
+}
+.relac img {
+    height: 90%;
+    width: 100%;
+    margin-top: 6px;
+}
+.coinc {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: center;
+}
+.coinc a{
+    font-weight: unset;
+    color: white;
+    font-size: 20px;
+}
+.coinc img {
+    height: 90%;
+    width: 100%;
+    margin-top: 6px;
+}
+.coinc a {
+    display: flex;
+    justify-content: center;
 }
