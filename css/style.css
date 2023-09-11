@@ -128,7 +128,7 @@ body{
 .padre-footer{
     display: flex;
     justify-content: center;
-    align-items: bottom;
+    align-items: flex-end;
     margin-top: 30px;
 }
 .footer{
@@ -401,6 +401,8 @@ color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 18vh;
+    background-color: rgba(250, 235, 215, 0.34);
 }
 .favsPadre {
     display: flex;
@@ -414,11 +416,21 @@ color: white;
 .fav {
     display: flex;
     flex-direction: column;
-    width: 250px;
+    width: 18%;
     
     
 }
+.fav h2{
+    font-weight: unset;
+}
 .fav img {
-    height: 75%;
+    height: 90%;
     width: 100%;
+    margin-top: 6px;
+}
+.abueFooter{
+    display: flex;
+    align-items:bottom;
+    justify-content:center;
+    
 }
