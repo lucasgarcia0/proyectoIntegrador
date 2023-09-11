@@ -69,6 +69,11 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+.pelicula a{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
 .pelicula img{
     display: flex;
     justify-content: center;
@@ -101,6 +106,11 @@ body{
     width: 18%;
     margin-left: 10px;
     margin-right: 10px;
+}
+.serie a{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 7px;
 }
 .serie img{
     display: flex;
@@ -149,6 +159,50 @@ body{
     padding-top: 20px;
 }
 
+/* styles pagina generos */
+
+.titulo_genero_main {
+    color: white;
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nombre_generos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.nombre_generos a {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.nombre-informacion_genero {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(135, 132, 132);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom:20px;
+    padding: 10px;
+    width: 90vw;
+    height: 20vh;
+}
+
 /* styles pagina detalle_generos*/
 
 .detalle_generos_main {
@@ -179,6 +233,10 @@ body{
     background-color: rgba(255, 255, 255, 0.379);
     width: 100vw;
 }
+.contenido_accion_peliculas img{
+    display: flex;
+    height: 100%;
+}
 .pelicula_accion{
     display: flex;
     margin-right: 20px;
@@ -192,6 +250,7 @@ body{
     font-size: 20px;
     display: flex; 
     justify-content: center;
+    margin-top: 5px;
 }
 
 .contenido_accion_peliculas p {
@@ -213,6 +272,10 @@ body{
     background-color: rgba(255, 255, 255, 0.379);
     width: 100vw;
 }
+.contenido_accion_series img{
+    display: flex;
+    height: 100%;
+}
 .serie_accion{
     display: flex;
     margin-right: 20px;
@@ -226,6 +289,8 @@ body{
     font-size: 20px;
     display: flex; 
     justify-content: center;
+    margin-top: 5px;
+
 }
 
 .contenido_accion_series p {
