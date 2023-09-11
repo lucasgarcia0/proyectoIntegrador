@@ -476,7 +476,9 @@ color: white;
     flex-direction: row;
     justify-content: space-between;
     width: 80vw;
-    
+    margin-bottom: 15px;
+    margin-top: 15px;
+
 }
 .fav {
     display: flex;
