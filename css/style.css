@@ -69,6 +69,11 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+.pelicula a{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 7px;
+}
 .pelicula img{
     display: flex;
     justify-content: center;
@@ -101,6 +106,11 @@ body{
     width: 18%;
     margin-left: 10px;
     margin-right: 10px;
+}
+.serie a{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 7px;
 }
 .serie img{
     display: flex;
