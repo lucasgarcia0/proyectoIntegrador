@@ -20,6 +20,9 @@ body{
     justify-content: space-between;
     background-color: rgba(250, 235, 215, 0.34);
 }
+.busqueda label{
+    color: white;
+}
 .logo{
     width: 122.8px;
     height: 73.6px;
