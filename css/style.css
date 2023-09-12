@@ -50,6 +50,7 @@ body{
 .padre-lomasvistopeliculas{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
@@ -89,6 +90,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .padre-lomasvistoseries h2{
@@ -127,6 +129,7 @@ body{
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .padre-masvaloradas h2{
     font-weight: unset;
