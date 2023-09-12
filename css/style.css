@@ -586,3 +586,63 @@ color: white;
     display: flex;
     justify-content: center;
 }
+/*Styles home (responsive)*/
+
+/*Styles generos (responsive)*/
+@media (max-width: 450px) {
+    
+    .nombre-informacion_genero {
+        display: flex;
+        flex-wrap: wrap;
+        height: 35vh;
+    }
+}
+/*Styles detalle generos (responsive)*/
+
+@media (max-width: 450px) {
+    .contenido_accion_peliculas {
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+
+    .pelicula_accion{
+        width: 30vw;
+    }
+    
+    .pelicula_accion a {
+       margin-bottom: 10px;
+    }
+    
+    .contenido_accion_peliculas p {
+        justify-content: center;
+        margin-bottom: 20px;
+        width: 90vw;
+    }
+    
+    .contenido_accion_series{
+        flex-wrap: wrap;
+    }
+
+    .serie_accion{
+        width: 30vw;
+    }
+    
+    .serie_accion a {
+        margin-bottom: 10px;
+    
+    }
+    
+    .contenido_accion_series p {
+        width: 90vw;
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+}
+
+/*Styles detalle peliculas (responsive)*/
+
+/*Styles detalle series (responsive)*/
+
+/*Styles favoritos (responsive)*/
+
+/*Styles search results (responsive)*/
