@@ -661,7 +661,6 @@ color: white;
 }
 /*Styles generos (responsive)*/
 @media (max-width: 450px) {
-    
     .nombre-informacion_genero {
         display: flex;
         flex-wrap: wrap;
