@@ -5,7 +5,7 @@
     margin:0
 }
 body{
-    background-image: url(../img/fondo-web.jpeg);
+    background-image: url(../img/fondo_pantalla.jpeg);
     background-attachment:fixed ;
     background-size: 100%;
     font-family: sans-serif;
@@ -600,7 +600,9 @@ color: white;
         padding-left: 20px;
         background-color: rgba(250, 235, 215, 0.34);
     }
-
+    .menu-navegacion{
+        font-size: medium;
+    }
 }
 /*Styles home (responsive)*/
 @media (max-width: 450px){
@@ -616,7 +618,7 @@ color: white;
         height: 300px;
     }
     .pelicula a{
-        font-size: 14px;
+        font-size: 17px;
     }
     .pelicula img{
         height: 70%;
@@ -640,7 +642,7 @@ color: white;
         height: 300px;
     }
     .serie a{
-        font-size: 14px;
+        font-size: 17px;
     }
     .serie img{
         height: 70%;
