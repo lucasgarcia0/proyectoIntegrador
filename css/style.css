@@ -609,6 +609,15 @@ color: white;
         font-size: medium;
     }
 }
+
+
+
+
+
+
+
+
+
 /*Styles home (responsive)*/
 @media (max-width: 450px){
     .padre-lomasvistopeliculas{
@@ -713,26 +722,17 @@ color: white;
 /*Styles detalle peliculas (responsive)*/
 
 @media (max-width: 450px) {
-
-    
-    .detalle_pelicula_spiderman {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
     
     .titulo_portada_spiderman {
         align-items: center;
         margin-right:0;
         width: 100vw;
+        flex-direction: column;
     }
     
     .titulo_spiderman {
-        display: flex;
-        flex-direction: column;
-        font-size: 40px;
+        font-size: 30px;
         align-items: center;
-        margin-top: 20px;
     }
     
     .portada_spiderman {
@@ -740,12 +740,14 @@ color: white;
         flex-direction: column;
         align-items: left;
         width: 70vw;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     .informacion_spiderman {
         align-items: left;
         width: 100vw;
         margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .informacion_spiderman p {
         margin-bottom: 20px;
@@ -759,6 +761,45 @@ color: white;
 }
 
 /*Styles detalle series (responsive)*/
+
+@media (max-width: 450px) {
+    
+    .titulo_portada_friends {
+        align-items: center;
+        margin-right:0;
+        width: 100vw;
+        flex-direction: column;
+    }
+    
+    .titulo_friends {
+        font-size: 30px;
+        align-items: center;
+    }
+    
+    .portada_friends {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        width: 70vw;
+        margin-bottom: 80px;
+    }
+    .informacion_friends {
+        align-items: left;
+        width: 100vw;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .informacion_friends p {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    
+    .informacion_friends a {
+        margin-bottom: 20px;
+    }
+
+}
 
 /*Styles favoritos (responsive)*/
 @media (max-width:474px){
