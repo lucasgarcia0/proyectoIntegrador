@@ -5,7 +5,7 @@
     margin:0
 }
 body{
-    background-image: url(../img/fondo-web.jpeg);
+    background-image: url(../img/fondo_pantalla.jpeg);
     background-attachment:fixed ;
     background-size: 100%;
     font-family: sans-serif;
@@ -50,6 +50,7 @@ body{
 .padre-lomasvistopeliculas{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
@@ -89,6 +90,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .padre-lomasvistoseries h2{
@@ -127,6 +129,7 @@ body{
     flex-direction: row;
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .padre-masvaloradas h2{
     font-weight: unset;
@@ -474,6 +477,7 @@ color: white;
     justify-content: center;
     margin-bottom: 16vh;
     background-color: rgba(250, 235, 215, 0.34);
+    flex-wrap: wrap;
 }
 .favsPadre {
     display: flex;
@@ -488,7 +492,12 @@ color: white;
 .fav {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 170px;
+    margin-left: 20px;
+
+}
+.fav cinc {
+    margin-right: 20px;
 }
 .fav a{
     font-weight: unset;
@@ -596,7 +605,9 @@ color: white;
         padding-left: 20px;
         background-color: rgba(250, 235, 215, 0.34);
     }
-
+    .menu-navegacion{
+        font-size: medium;
+    }
 }
 /*Styles home (responsive)*/
 @media (max-width: 450px){
@@ -612,7 +623,7 @@ color: white;
         height: 300px;
     }
     .pelicula a{
-        font-size: 14px;
+        font-size: 17px;
     }
     .pelicula img{
         height: 70%;
@@ -636,7 +647,7 @@ color: white;
         height: 300px;
     }
     .serie a{
-        font-size: 14px;
+        font-size: 17px;
     }
     .serie img{
         height: 70%;
@@ -750,5 +761,30 @@ color: white;
 /*Styles detalle series (responsive)*/
 
 /*Styles favoritos (responsive)*/
-
+@media (max-width:474px){
+    .peliFavAbuelo{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height:auto;
+    }
+    .favsPadre{
+        display: flex;
+        flex-wrap: wrap;
+        height:auto;
+    }
+    .fav{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .fav a{
+        font-weight: unset;
+        color: white;
+        font-size: 16px;
+    }
+}
 /*Styles search results (responsive)*/
