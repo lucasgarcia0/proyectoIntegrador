@@ -544,14 +544,14 @@ color: white;
     margin-bottom: 15px;
     margin-top: 15px;
 }
-.busqRelacionadas{
+.busqRelacionadasPadre{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 13vh;
     background-color: rgba(250, 235, 215, 0.076);
 }
-.busqRelacionadasPadre{
+.busqRelacionadas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -564,7 +564,8 @@ color: white;
 .relac {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 170px;
+    margin-left: 20px;
 }
 .relac a{
     font-weight: unset;
@@ -579,22 +580,21 @@ color: white;
 .coinc {
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 170px;
+    margin-left: 20px;
     justify-content: center;
 }
 .coinc a{
     font-weight: unset;
     color: white;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 .coinc img {
     height: 90%;
     width: 100%;
     margin-top: 6px;
-}
-.coinc a {
-    display: flex;
-    justify-content: center;
 }
 /*Header (responsive)*/
 @media (max-width: 450px){
@@ -788,3 +788,56 @@ color: white;
     }
 }
 /*Styles search results (responsive)*/
+@media (max-width:474px){
+    .coincidenciaPadre{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height:auto;
+    }
+    .coincidenciaSpider{
+        display: flex;
+        flex-wrap: wrap;
+        height:auto;
+    }
+    .coinc{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .coinc a{
+        font-weight: unset;
+        color: white;
+        font-size: 15px;
+    }
+    .busqRelacionadasPadre{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100vw;
+        height:auto;
+    }
+    .busqRelacionadas{
+        display: flex;
+        flex-wrap: wrap;
+        height:auto;
+    }
+    .relac{
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+    .relac a{
+        font-weight: unset;
+        color: white;
+        font-size: 15px;
+    }
+    .resBusqueda{
+        font-size: large;
+    }
+}
