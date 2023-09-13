@@ -475,7 +475,7 @@ color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 16vh;
+    margin-bottom: 21vh;
     background-color: rgba(250, 235, 215, 0.34);
     flex-wrap: wrap;
 }
@@ -494,7 +494,7 @@ color: white;
     flex-direction: column;
     width: 170px;
     margin-left: 20px;
-
+    margin-bottom: 7px;
 }
 .fav cinc {
     margin-right: 20px;
