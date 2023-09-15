@@ -8,9 +8,11 @@ body{
     background-image: url(../img/fondo_pantalla.jpeg);
     background-attachment:fixed ;
     background-size: 100%;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+img{
+    border-radius: 15px;
+}
 .home_main{
     color: white;
 }
