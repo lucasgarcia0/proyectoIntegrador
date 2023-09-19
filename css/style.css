@@ -478,7 +478,7 @@ color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 16vh;
+    margin-bottom: 22vh;
     background-color: rgba(250, 235, 215, 0.34);
     flex-wrap: wrap;
 }
