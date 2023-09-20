@@ -560,7 +560,7 @@ color: white;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
-    width: 80vw;
+    width: 100vw;
     margin-bottom: 15px;
     margin-top: 15px;
 }
@@ -576,7 +576,7 @@ color: white;
 }
 .relac img {
     height: 90%;
-    width: 100%;
+    width: 90%;
     margin-top: 6px;
 }
 .coinc {
