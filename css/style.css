@@ -69,7 +69,6 @@ img{
 }
 .pelicula{
     margin-top: 10px;
-    margin-left: 20px;
     display: flex;
     flex-direction: column;
     width: 18%;
@@ -108,7 +107,6 @@ img{
 }
 .serie{
     margin-top: 10px;
-    margin-left: 20px;
     display: flex;
     flex-direction: column;
     width: 18%;
@@ -147,7 +145,6 @@ img{
 .padre-footer{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
     margin-top: 30px;
 }
 .footer{
@@ -193,8 +190,6 @@ img{
     justify-content: center;
     color: white;
     padding-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
     margin-bottom: 20px;
     font-size: 25px;
 }
@@ -204,8 +199,6 @@ img{
     flex-direction: column;
     color: white;
     background-color: rgb(135, 132, 132);
-    margin-right: 10px;
-    margin-left: 10px;
     margin-bottom:20px;
     padding: 10px;
     width: 90vw;
@@ -265,8 +258,6 @@ img{
 .contenido_accion_peliculas p {
     font-size: 30px;
     margin-top: 5px;
-    display: flex;
-    justify-content: left;
 }
 
 .contenido_accion_series{
@@ -305,8 +296,6 @@ img{
 .contenido_accion_series p {
     font-size: 30px;
     margin-top: 5px;
-    display: flex;
-    justify-content: left;
 }
 
 
@@ -331,7 +320,7 @@ img{
 .titulo_portada_spiderman {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
     margin-right: 70px;
     width: 30vw;
 }
@@ -347,8 +336,6 @@ img{
 .portada_spiderman {
     display: flex;
     flex-direction: column;
-    align-items: left;
-    height: 40vh;
     width: 30vw;
     margin-top: 20px;
 }
@@ -370,7 +357,6 @@ img{
 .boton_favoritos_spiderman {
     display: flex;
     flex-direction: row;
-    margin: 0;
 }
 .boton_favoritos_spiderman a {
 color: white;
@@ -403,8 +389,7 @@ color: white;
 .titulo_portada_friends {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
+    align-items: center;
     margin-right: 70px;
     width: 30vw;
 }
@@ -421,7 +406,6 @@ color: white;
 .portada_friends {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 350px;
     margin-top: 20px;
 }
@@ -443,7 +427,6 @@ color: white;
 .boton_favoritos_friends {
     display: flex;
     flex-direction: row;
-    margin: 0;
 }
 .boton_favoritos_friends a {
 color: white;
@@ -466,7 +449,6 @@ color: white;
     flex-direction: column;
     margin-bottom: 50px;
     margin-top: 20px;
-    justify-content: flex-start;
 }
 .favsTitulos h1 {
     font-style: bold;
@@ -496,12 +478,8 @@ color: white;
     display: flex;
     flex-direction: column;
     width: 170px;
-    margin-left: 20px;
+}
 
-}
-.fav cinc {
-    margin-right: 20px;
-}
 .fav a{
     font-weight: unset;
     color: white;
@@ -541,12 +519,31 @@ color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     width: 80vw;
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+.coinc {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    justify-content: center;
+}
+.coinc a{
+    font-weight: unset;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.coinc img {
+    height: 90%;
+    width: 100%;
+    margin-top: 6px;
+}
+
 .busqRelacionadas{
     display: flex;
     flex-direction: row;
@@ -561,7 +558,6 @@ color: white;
     flex-direction: row;
     justify-content: space-between;
     width: 100vw;
-    margin-bottom: 15px;
     margin-top: 15px;
 }
 .relac {
@@ -579,26 +575,12 @@ color: white;
     width: 90%;
     margin-top: 6px;
 }
-.coinc {
-    display: flex;
-    flex-direction: column;
-    width: 18%;
-    justify-content: center;
-}
-.coinc a{
-    font-weight: unset;
-    color: white;
-    font-size: 20px;
-}
-.coinc img {
-    height: 90%;
-    width: 100%;
-    margin-top: 6px;
-}
-.coinc a {
-    display: flex;
-    justify-content: center;
-}
+
+
+
+
+
+
 /*Header (responsive)*/
 @media (max-width: 450px){
     .header{
@@ -612,13 +594,6 @@ color: white;
         font-size: medium;
     }
 }
-
-
-
-
-
-
-
 
 
 /*Styles home (responsive)*/
@@ -733,14 +708,13 @@ color: white;
     }
     
     .titulo_spiderman {
-        font-size: 30px;
+        font-size: 25px;
         align-items: center;
     }
     
     .portada_spiderman {
         display: flex;
         flex-direction: column;
-        align-items: left;
         width: 250px;
         margin-bottom: 40px;
     }
@@ -774,7 +748,7 @@ color: white;
     }
     
     .titulo_friends {
-        font-size: 30px;
+        font-size: 25px;
         align-items: center;
     }
     
