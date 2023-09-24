@@ -56,10 +56,6 @@ img{
     width: 100%;
     justify-content: center;
 }
-.padre-lomasvistopeliculas h2{
-    font-weight: unset;
-    margin-bottom: 8px;
-}
 .lomasvistopeliculas-texto{
     display: flex;
     justify-content: center;
@@ -94,10 +90,6 @@ img{
     flex-wrap: wrap;
     justify-content: center;
 }
-.padre-lomasvistoseries h2{
-    font-weight: unset;
-    margin-bottom: 8px;
-}
 .lomasvistoseries-texto{
     display: flex;
     justify-content: center;
@@ -130,10 +122,6 @@ img{
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
-}
-.padre-masvaloradas h2{
-    font-weight: unset;
-    margin-bottom: 8px;
 }
 .masvaloradas-texto{
     display: flex;
@@ -481,7 +469,6 @@ color: white;
 }
 
 .fav a{
-    font-weight: unset;
     color: white;
     font-size: 20px;
 }
@@ -532,7 +519,6 @@ color: white;
     justify-content: center;
 }
 .coinc a{
-    font-weight: unset;
     color: white;
     font-size: 20px;
     display: flex;
@@ -566,7 +552,6 @@ color: white;
     width: 18%;
 }
 .relac a{
-    font-weight: unset;
     color: white;
     font-size: 20px;
 }
@@ -621,10 +606,6 @@ color: white;
         flex-wrap: wrap;
         width: 100vw;
         justify-content: center;
-    }
-    .padre-lomasvistoseries h2{
-        font-weight: unset;
-        margin-bottom: 8px;
     }
     .lomasvistoseries-texto{
         flex-wrap: wrap;
@@ -799,7 +780,6 @@ color: white;
         margin-bottom: 30px;
     }
     .fav a{
-        font-weight: unset;
         color: white;
         font-size: 16px;
     }
