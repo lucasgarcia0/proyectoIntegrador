@@ -6,15 +6,12 @@
 }
 body{
     background-image: url(../img/fondo_pantalla.jpeg);
-    background-attachment:fixed ;
+    background-attachment:fixed;
     background-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 img{
     border-radius: 15px;
-}
-.home_main{
-    color: white;
 }
 .header{
     display: flex;
@@ -48,7 +45,33 @@ img{
     margin: 5px;
     color: white;
 }
+.padre-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(250, 235, 215, 0.34);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color:white;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+}
+.footer p{
+    padding: 20px; 
+    border-right: 2px solid white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 /*Styles home*/
+.home_main{
+    color: white;
+}
 .padre-lomasvistopeliculas{
     display: flex;
     flex-direction: row;
@@ -130,29 +153,6 @@ img{
     margin-bottom: 15px;
     flex-wrap: wrap;
 }
-.padre-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-.footer{
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(250, 235, 215, 0.34);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    color:white;
-    justify-content: center;
-    width: 100vw;
-    align-items: center;
-}
-.footer p{
-    padding: 20px; 
-    border-right: 2px solid white;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
 /* styles pagina generos */
 
 .titulo_genero_main {
@@ -164,7 +164,6 @@ img{
     justify-content: center;
 
 }
-
 .nombre_generos{
     display: flex;
     flex-direction: column;
@@ -173,7 +172,6 @@ img{
     align-items: center;
 }
 .nombre_generos a {
-
     display: flex;
     justify-content: center;
     color: white;
@@ -205,7 +203,6 @@ img{
 .titulo_accion {
     display: flex;
     justify-content:center;
-    width: 100%;
     color: white;
     font-size: 40px;
     margin-bottom: 20px;
@@ -271,7 +268,6 @@ img{
     flex-direction: column;
     width: 14vw;
 }
-
 .serie_accion a {
     color: white;
     font-size: 20px;
@@ -295,7 +291,6 @@ img{
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
-    margin: 0;
     color:white;
 }
 
@@ -384,10 +379,7 @@ color: white;
 
 .titulo_friends {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     font-size: 40px;
-    align-items: center;
     margin-top: 20px;
 }
 
