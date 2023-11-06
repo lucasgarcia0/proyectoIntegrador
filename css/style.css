@@ -370,7 +370,6 @@ color: white;
 }
 
 .titulo_friends {
-    display: flex;
     font-size: 40px;
     margin-top: 20px;
 }
