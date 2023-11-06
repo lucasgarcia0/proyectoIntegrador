@@ -294,7 +294,6 @@ img{
 }
 
 .titulo_portada_spiderman {
-    display: flex;
     flex-direction: column;
     align-items: center;
     margin-right: 70px;
