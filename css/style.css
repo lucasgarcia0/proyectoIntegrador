@@ -29,8 +29,7 @@ img{
     margin-left: 10px;
 
 }
-.busqueda{
-    
+.busqueda{    
     justify-content: space-between;
     margin-top: 25px;
 }
@@ -46,8 +45,6 @@ img{
     color: white;
 }
 .padre-footer{
-    display: flex;
-    justify-content: center;
     margin-top: 30px;
 }
 .footer{
