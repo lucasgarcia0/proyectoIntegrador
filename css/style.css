@@ -97,7 +97,6 @@ img{
     margin-bottom: 7px;
 }
 .pelicula img{
-    display: flex;
     justify-content: center;
     height: 90%;
     margin-bottom: 5px;
@@ -131,7 +130,6 @@ img{
     margin-bottom: 7px;
 }
 .serie img{
-    display: flex;
     justify-content: center;
     height: 90%;
     margin-bottom: 5px;
