@@ -4,9 +4,9 @@ let queryStringObj = new URLSearchParams(queryString)
 
 let nameABuscar = queryStringObj.get('busqueda')
 
-let key = 2992d4efe55fd968244eb4c50ed5129d
+let api_key = 'adaebcb9e821851ba063cc72531a85e7'
 
-fetch(`https://api.themoviedb.org/3/search/movie?api_key=${key}&query=${busqueda}`)
+fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${api_key}`)
 
     .then(function(response){
         return response.json()
