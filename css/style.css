@@ -467,10 +467,7 @@ color: white;
 }
 
 /*Estilos del Search-Results*/
-.SearchResults_main{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+.SearchResults_main{  
     color: white;
 }
 .resBusqueda{
@@ -481,25 +478,21 @@ color: white;
 }
 .coincidenciaPadre{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     background-color: rgba(250, 235, 215, 0.076);
 }
 .coincidenciaSpider{
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /*flex wrap borrado*/
     justify-content: center;
-    width: 80vw;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    width: 90vw;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .coinc {
-    display: flex;
-    flex-direction: column;
     width: 18%;
-    justify-content: center;
+    /*justify-content borrado*/
 }
 .coinc a{
     color: white;
@@ -515,28 +508,24 @@ color: white;
 
 .busqRelacionadas{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-bottom: 13vh;
     background-color: rgba(250, 235, 215, 0.076);
 }
-.busqRelacionadasPadre{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+.busqRelacionadasPadre{   
+    /*flex wrap borrado y flex direction, display, justify content*/
     width: 100vw;
     margin-top: 15px;
 }
 .relac {
-    display: flex;
-    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 18%;
 }
 .relac a{
     color: white;
     font-size: 20px;
+    margin-top: 5px;
 }
 .relac img {
     height: 90%;
