@@ -43,7 +43,7 @@ fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${api_key}`
                     <img src="https://image.tmdb.org/t/p/w500/${inform[i].poster_path}">
                     <p>Estreno: ${inform[i].first_air_date}</p>
                 </div>
-            `
+                `
         }
     })
     .catch(function(err){
