@@ -27,7 +27,7 @@ fetch(`https://api.themoviedb.org/3/movie/${ID}?api_key=${api_key}`)
                 <p> Fecha de estreno: ${data.release_date}</p>
                 <p> Duracion: ${data.runtime} minutos </p>
                 <p> Sinopsis: ${data.overview}</p>
-                <a href="./detalle_genero.html"> Genero: ${data.genres[0].name}</a>
+                <a href="./detalle_genero.html?genres=${data.genres[0].name}"> Genero: ${data.genres[0].name}</a>
                     <div class="boton_favoritos_spiderman">
                         <a href="./favorite.html"> Favoritos: </a>
                         <input type="checkbox" name="favoritos" value=""> 
