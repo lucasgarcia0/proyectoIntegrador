@@ -35,10 +35,6 @@ fetch(`https://api.themoviedb.org/3/movie/${ID}?api_key=${api_key}`)
 
             </article> `
         
-
-
-
-
     })
     .catch(function(err){
         console.log(err)
