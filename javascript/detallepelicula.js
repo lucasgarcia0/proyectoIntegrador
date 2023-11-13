@@ -26,8 +26,8 @@ fetch(`https://api.themoviedb.org/3/movie/${ID}?api_key=${api_key}`)
                 <p> Rating: ${data.vote_average}</p>
                 <p> Fecha de estreno: ${data.release_date}</p>
                 <p> Duracion: ${data.runtime} minutos </p>
-                <p> Sinopsis: Peter Parker (Tobey Maguire) y M.J. (Kirsten Dunst) parecen estar finalmente en el camino correcto en su complicada relación, pero se avecinan problemas para el superhéroe y su amante. El traje de Spider-Man de Peter se vuelve negro y toma el control de él, no solo dándole a Peter un mayor poder sino también sacando a relucir el lado oscuro de su personalidad. Peter debe superar la influencia del traje mientras dos supervillanos, Sandman y Venom, se levantan para destruirlo a él y a todos sus seres queridos.</p>
-                <a href="./detalle_genero.html"> Genero: Acción</a>
+                <p> Sinopsis: ${data.overview}</p>
+                <a href="./detalle_genero.html"> Genero: ${data.genres[0].name}</a>
                     <div class="boton_favoritos_spiderman">
                         <a href="./favorite.html"> Favoritos: </a>
                         <input type="checkbox" name="favoritos" value=""> 
