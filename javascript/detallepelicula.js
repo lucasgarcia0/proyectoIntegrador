@@ -11,11 +11,19 @@ fetch(`https://api.themoviedb.org/3/movie/${ID}?api_key=${api_key}`)
         return response.json()
     })
     .then(function(data){
-        
+        console.log(data)
+        let nombrePelicula = document.querySelector(".titulo_portada_spiderman")
+        nombrePelicula.innerHTML +=
+                `<article class="titulo_spiderman">
+                    <h2> ${data.title}</h2>
+                </article>
+                <article class="portada_spiderman">
+                    <img src="https://image.tmdb.org/t/p/w500/${data.poster_path}">
+                </article>`
 
 
 
-        
+
     })
     .catch(function(err){
         console.log(err)
