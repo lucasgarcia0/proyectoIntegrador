@@ -6,9 +6,6 @@ let data = new URLSearchParams(queryString)
 
 let idGenero = data.get('id')
 
-let nombreGenero = data.get('name')
-console.log(nombreGenero)
-
 fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${idGenero}&api_key=${api_key}`)
 
     .then(function(response){
@@ -20,7 +17,7 @@ fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${idGenero}&api_k
         let detalleGeneroTitulo = document.querySelector('.titulo_accion')
         detalleGeneroTitulo.innerHTML +=
             `
-            <h2>${nombreGenero}</h2>`
+            <h2>Aca va el título del genero</h2>`
         detalleGeneroPelis.innerHTML +=
         `<p>Peliculas:</p>`
         for (i = 0; i < data.results.length; i++){

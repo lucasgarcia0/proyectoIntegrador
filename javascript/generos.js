@@ -13,7 +13,7 @@ fetch(`https://api.themoviedb.org/3/genre/movie/list?api_key=${api_key}`)
         for (i = 0; i < generos.length; i++){
             tituloGeneros +=
             `<article class= "nombre-informacion_genero">
-                <a href="./detalle_genero.html?id=${generos[i].id}&name=${generos[i].name}">${generos[i].name}</a>
+                <a href="./detalle_genero.html?id=${generos[i].id}">${generos[i].name}</a>
             </article>`
             nombreGeneros.innerHTML = tituloGeneros
         }
@@ -35,7 +35,7 @@ fetch(`https://api.themoviedb.org/3/genre/tv/list?api_key=${api_key}`)
         for (i = 0; i < generosSeries.length; i++){
             tituloGenerosSeries +=
             `<article class= "nombre-informacion_genero">
-                <a href="./detalle_genero.html?id=${generoSeries[i].id}&name=${generos[i].name}">${generosSeries[i].name}</a>
+                <a href="./detalle_genero.html?id=${generosSeries[i].id}">${generosSeries[i].name}</a>
             </article>`
             nombreGenerosSeries.innerHTML = tituloGenerosSeries
         }
