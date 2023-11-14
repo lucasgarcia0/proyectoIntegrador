@@ -16,17 +16,17 @@ fetch(`https://api.themoviedb.org/3/tv/${ID}?api_key=${api_key}`)
         nombreSerie.innerHTML +=
         `<div class="titulo_portada_friends">
             <article class="titulo_friends">
-                <h2> ${data.title} </h2>
+                <h2> ${data.original_name} </h2>
             </article>
             <article class="portada_friends">
                 <img src="https://image.tmdb.org/t/p/w500/${data.poster_path}">
             </article>
         </div>
         <article class="informacion_friends">
-            <p> Rating:${data.vote_average}</p>
-            <p> Fecha de estreno: ${data.release_date}</p>
-            <p> Sinopsis:${data.overview}</p>
-            <a href="./detalle_genero.html?genres=${data.genres[0].name}"> Genero:${data.genres[0].name}</a>
+            <p> Rating: ${data.vote_average}</p>
+            <p> Fecha de estreno: ${data.first_air_date}</p>
+            <p> Sinopsis: ${data.overview}</p>
+            <a href="./detalle_genero.html?genres=${data.genres[0].name}"> Genero: ${data.genres[0].name}</a>
                 <div class="boton_favoritos_friends">
                     <a href="./favorite.html"> Favoritos:</a>
                     <input type="checkbox" name="favoritos" value=""> 

@@ -39,7 +39,7 @@ fetch(`https://api.themoviedb.org/3/tv/popular?api_key=${api_key}`
         for(let i = 0; i < inform.length; i++){
             popularSeriesContainer.innerHTML+= `
                 <div class="serie">
-                    <a href="detallepelicula.html?id=${inform[i].id}">${inform[i].name}</a>
+                    <a href="detalleserie.html?id=${inform[i].id}">${inform[i].name}</a>
                     <img src="https://image.tmdb.org/t/p/w500/${inform[i].poster_path}">
                     <p>Estreno: ${inform[i].first_air_date}</p>
                 </div>
