@@ -18,8 +18,6 @@ fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${idGenero}&api_k
         detalleGeneroTitulo.innerHTML +=
             `
             <h2>Aca va el título del genero</h2>`
-        detalleGeneroPelis.innerHTML +=
-        `<p>Peliculas:</p>`
         for (i = 0; i < data.results.length; i++){
             
             detalleGeneroPelis.innerHTML +=
@@ -36,3 +34,4 @@ fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${idGenero}&api_k
     .catch(function(err){
         console.log(err)
     })
+
