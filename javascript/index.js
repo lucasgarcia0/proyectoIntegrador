@@ -62,7 +62,7 @@ fetch(`https://api.themoviedb.org/3/movie/top_rated?api_key=${api_key}`)
         console.log(info)
         for(let i = 0; i < info.length; i++){
             topRatedContainer.innerHTML+= `
-                <div class="serie">
+                <div class="pelicula">
                     <a href="detallepelicula.html?id=${info[i].id}">${info[i].title}</a>
                     <img src="https://image.tmdb.org/t/p/w500/${info[i].poster_path}">
                     <p>Estreno: ${info[i].release_date}</p>
