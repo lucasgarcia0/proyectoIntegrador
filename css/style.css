@@ -86,7 +86,7 @@ img{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 200px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -243,7 +243,7 @@ img{
     margin-right: 20px;
     margin-left: 20px;
     flex-direction: column;
-    width: 14vw;
+    width: 16vw;
 }
 
 .pelicula_accion a {
@@ -530,14 +530,18 @@ color: white;
     display: flex;
     /*flex wrap borrado*/
     justify-content: center;
-    width: 90vw;
+    width: 100vw;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .coinc {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
     width: 18%;
-    /*justify-content borrado*/
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .coinc a{
     color: white;
@@ -548,7 +552,7 @@ color: white;
 .coinc img {
     justify-content: center;
     margin-bottom: 5px;
-    height: 90%;
+    
     width: 100%;
     margin-top: 6px;
 }
@@ -562,6 +566,7 @@ color: white;
 }
 .busqRelacionadasPadre{   
     /*flex wrap borrado y flex direction, display, justify content*/
+    display: flex;
     width: 100vw;
     margin-top: 15px;
     flex-direction: row;
@@ -569,8 +574,12 @@ color: white;
 }
 .relac {
     margin-top: 10px;
-    margin-bottom: 10px;
-    width: 18%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
 .relac a{
     color: white;
@@ -579,7 +588,7 @@ color: white;
 }
 .relac img {
     height: 90%;
-    width: 90%;
+    width: 100%;
     margin-top: 6px;
     justify-content: center;
     margin-bottom: 5px;
@@ -667,8 +676,11 @@ color: white;
     }
 }
 /*Styles detalle generos (responsive)*/
-
-@media (max-width: 450px) {
+@media (max-width: 900px) {
+    .pelicula_accion a {
+        font-size: 15px;}
+}
+@media (max-width: 600px) {
     .contenido_accion_peliculas {
         flex-wrap: wrap;
         width: 100vw;
@@ -814,4 +826,17 @@ color: white;
         color: white;
         font-size: 16px;
     }
+}
+
+/*Styles search results (responsive)*/
+@media (max-width:550px){
+    .coinc{
+        width: 150px;
+        height:300px;
+    }
+    .relac{
+        width:150px;
+        height:300px;
+    }
+
 }
