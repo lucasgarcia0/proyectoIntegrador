@@ -595,7 +595,7 @@ color: white;
 
 
 /*Styles home (responsive)*/
-@media (max-width: 450px){
+@media (max-width: 550px){
     .padre-lomasvistopeliculas{
         display: flex;
         flex-direction: row;
