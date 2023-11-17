@@ -580,7 +580,7 @@ color: white;
 
 
 /*Header (responsive)*/
-@media (max-width: 450px){
+@media (max-width: 550px){
     .header{
         display: flex;
         flex-direction: column;
