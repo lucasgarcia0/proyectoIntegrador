@@ -6,7 +6,6 @@ let data = new URLSearchParams(queryString)
 
 let idGenero = data.get('id')
 
-
 let nombreGenero = data.get('name')
 
 fetch(`https://api.themoviedb.org/3/discover/movie?with_genres=${idGenero}&api_key=${api_key}`)

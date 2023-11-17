@@ -336,6 +336,7 @@ img{
     flex-direction: column;
     width: 30vw;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 .informacion_spiderman {
     display: flex;
