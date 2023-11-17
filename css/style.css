@@ -86,7 +86,7 @@ img{
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: 200px;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -243,7 +243,7 @@ img{
     margin-right: 20px;
     margin-left: 20px;
     flex-direction: column;
-    width: 14vw;
+    width: 16vw;
 }
 
 .pelicula_accion a {
@@ -666,8 +666,11 @@ color: white;
     }
 }
 /*Styles detalle generos (responsive)*/
-
-@media (max-width: 450px) {
+@media (max-width: 900px) {
+    .pelicula_accion a {
+        font-size: 15px;}
+}
+@media (max-width: 600px) {
     .contenido_accion_peliculas {
         flex-wrap: wrap;
         width: 100vw;
