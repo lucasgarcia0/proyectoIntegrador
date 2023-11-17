@@ -331,6 +331,16 @@ img{
     margin-top: 20px;
 }
 
+.text_review{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.text_trailers{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .portada_spiderman {
     display: flex;
     flex-direction: column;
@@ -700,7 +710,7 @@ color: white;
 
 /*Styles detalle peliculas (responsive)*/
 
-@media (max-width: 450px) {
+@media (max-width: 1000px) {
     
     .titulo_portada_spiderman {
         align-items: center;
