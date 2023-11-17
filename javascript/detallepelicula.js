@@ -39,3 +39,39 @@ fetch(`https://api.themoviedb.org/3/movie/${ID}?api_key=${api_key}`)
     .catch(function(err){
         console.log(err)
     })
+
+fetch(`https://api.themoviedb.org/3/movie/${ID}/videos?api_key=${api_key}`)
+    .then(function(response){
+        return response.json()
+    })
+    .then(function(data){
+        console.log(data)
+        if (data.results.lenth > 0 ){
+            let trailerVideo = document.querySelector(".titulo_portada_spiderman")
+            trailerVideo.innerHTML += `<h2>Trailers y videos</h2>`
+            for (i = 0; i < data.results.length; i++)
+                trailerVideo.innerHTML +=
+                    `<iframe width="428" height="214"
+                        src="https://www.youtube.com/embed?v=${data.results[i].key}"
+                    </iframe>`
+        }
+        else if (data.results.length == 0){
+            trailerVideo.innerHTML += `<h2>No hay trailers disponibles</h2>`
+        }
+    })
+    .catch(function(err){
+        console.log(err)
+    })
+
+fetch(`https://api.themoviedb.org/3/movie/${ID}/reviews?api_key=${api_key}`)
+    .then(function(response){
+        return response.json()
+    })
+    .then(function(data){
+        console.log(data)
+
+    })
+    .catch(function(err){
+        console.log(err)
+    })
+    

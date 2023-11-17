@@ -38,8 +38,8 @@ fetch(`https://api.themoviedb.org/3/search/movie?api_key=${api_key}&query=${name
             
         for (i = 1; i < listaPeliculas.length; i++){
             pelisRelacionadas +=
-                `<article class="relac">
-                    <a href="detalle-pelicula.html?id=${listaPeliculas[i].id}">${listaPeliculas[i].title}</a>
+                `<article class="relac un">
+                    <a href="detallepelicula.html?id=${listaPeliculas[i].id}">${listaPeliculas[i].title}</a>
                     <img src=" https://image.tmdb.org/t/p/w500/${listaPeliculas[i].poster_path}">
                 </article>`
             pelisRel.innerHTML = pelisRelacionadas
