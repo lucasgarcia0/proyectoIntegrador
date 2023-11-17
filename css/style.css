@@ -580,7 +580,7 @@ color: white;
 
 
 /*Header (responsive)*/
-@media (max-width: 550px){
+@media (max-width: 450px){
     .header{
         display: flex;
         flex-direction: column;
@@ -595,7 +595,7 @@ color: white;
 
 
 /*Styles home (responsive)*/
-@media (max-width: 450px){
+@media (max-width: 550px){
     .padre-lomasvistopeliculas{
         display: flex;
         flex-direction: row;
